@@ -1,0 +1,16 @@
+SITE
+  remote: http://community.opscode.com/api/v1
+  specs:
+    apache2 (1.1.12)
+    imagemagick (0.2.2)
+    logrotate (0.8.2)
+    memcached (1.0.4)
+      runit (>= 0.0.0)
+    runit (0.15.0)
+
+DEPENDENCIES
+  apache2 (>= 0)
+  imagemagick (>= 0)
+  logrotate (>= 0)
+  memcached (>= 0)
+
