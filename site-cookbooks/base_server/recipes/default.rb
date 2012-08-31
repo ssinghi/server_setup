@@ -1,5 +1,4 @@
 # --- Install packages we need ---
-package 'monit'
 package 'logrotate'
 
 package 'postfix'
